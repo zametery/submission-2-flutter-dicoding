@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
               onPressed: () {
-                FirebaseCrashlytics.instance.crash();
+                /*FirebaseCrashlytics.instance.crash();*/
                 Navigator.pushNamed(context, SearchPage.routeName);
               },
               icon: const Icon(Icons.search)),
